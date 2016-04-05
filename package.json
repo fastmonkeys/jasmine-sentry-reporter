@@ -1,0 +1,26 @@
+{
+  "name": "jasmine-sentry-reporter",
+  "version": "0.1.0",
+  "description": "Sentry reporting for failed expectations in Jasmine",
+  "main": "src/jasmine-sentry-reporter.js",
+  "engines" : {
+      "node" : "4.x"
+  },
+  "peerDependencies": {
+    "raven": "0.10.x",
+    "jasmine-core": "2.x.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fastmonkeys/jasmine-sentry-reporter.git"
+  },
+  "scripts": {
+    "postversion": "git push --tags origin master && npm publish"
+  },
+  "author": "Vesa Uimonen <vesa.uimonen@fastmonkeys.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fastmonkeys/jasmine-sentry-reporter/issues"
+  },
+  "homepage": "https://github.com/fastmonkeys/jasmine-sentry-reporter"
+}
