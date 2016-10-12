@@ -1,10 +1,10 @@
 {
   "name": "jasmine-sentry-reporter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sentry reporting for failed expectations in Jasmine",
   "main": "src/jasmine-sentry-reporter.js",
-  "engines" : {
-      "node" : "4.x"
+  "engines": {
+    "node": ">=4"
   },
   "peerDependencies": {
     "raven": "0.10.x",
