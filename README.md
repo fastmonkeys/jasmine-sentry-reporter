@@ -5,7 +5,7 @@ Sentry reporting for failed expectations in Jasmine test suites.
 
 ## Requirements
 
-The reporter supports Node v4.x.x with the following peer dependencies:
+The reporter supports Node v4 or newer with the following peer dependencies:
 
 - [raven](https://www.npmjs.com/package/raven) v0.10.x
 - [jasmine-core](https://www.npmjs.com/package/jasmine-core) v2.x.x
